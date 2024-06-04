@@ -5,7 +5,7 @@ CC=g++ $(GO)
 INCLUDES=-I./tclap-1.2.1/include/ 
 CFLAGS=-c $(INCLUDES) 
 LDFLAGS=$(LIBS) 
-INLIBS=-lgcc_s -lpthread -lc -lm
+INLIBS= -lpthread -lc -lm
 
 alignSrc=mmAligner.cpp mmEM.cpp
 SOURCES=$(alignSrc)
